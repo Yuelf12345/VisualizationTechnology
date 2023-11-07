@@ -20,6 +20,13 @@
               </template>
                 <el-menu-item index="/svgDrag">svgDrag</el-menu-item>
             </el-sub-menu>
+            <el-sub-menu index="2">
+              <template #title>
+                <el-icon><location /></el-icon>
+                <span>CANVAS</span>
+              </template>
+                <el-menu-item index="/canvas">test</el-menu-item>
+            </el-sub-menu>
           </el-menu>
         </el-aside>
         <el-main class="layout-main"
