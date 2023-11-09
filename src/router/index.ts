@@ -27,6 +27,11 @@ const routes: Array<RouteRecordRaw> = [
                 path: '/canvas',
                 name: 'canvas',
                 component: () => import('../views/canvas/test.vue')
+            },
+            {
+                path: '/png',
+                name: 'png',
+                component: () => import('../views/canvas/png.vue')
             }
         ]
     }

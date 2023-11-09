@@ -26,6 +26,7 @@
                 <span>CANVAS</span>
               </template>
                 <el-menu-item index="/canvas">test</el-menu-item>
+                <el-menu-item index="/png">png</el-menu-item>
             </el-sub-menu>
           </el-menu>
         </el-aside>
