@@ -27,10 +27,9 @@ onMounted(() => {
   // };
 
 
-
   //视频
-  video = document.createElement('video')
-  video.src = 'blob:https://www.douyin.com/1a9a48c1-40c6-4657-9f90-9c7eff11f84c'
+  // video = document.createElement('video')
+  // video.src = 'blob:https://www.douyin.com/1a9a48c1-40c6-4657-9f90-9c7eff11f84c'
 
   // ctx.beginPath();
   // ctx.moveTo(100, 100);
@@ -73,6 +72,24 @@ onMounted(() => {
   //   requestAnimationFrame(r);
   // };
   // r();
+
+
+  // 文字 ('xxx',x,y,maxW)
+  ctx.font = "100px Microsoft YaHei"
+  // start end left right center
+  ctx.textAlign = 'center'  
+  // top bottom middle
+  ctx.textBaseline = 'middle'
+  // 方向
+  ctx.direction = 'rtl'
+  // 预测文本宽度
+  let text = ctx.measureText('hello')
+    console.log(text);
+    
+  // ctx.fillText("hello canvas",200,300,400)
+  ctx.strokeText("hello canvas !",200,300,400)
+  ctx.arc(200,300,5,0,Math.PI * 2)
+  ctx.fill()
 });
 const open = () =>{
   video.play()

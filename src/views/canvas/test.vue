@@ -49,17 +49,17 @@ onMounted(() => {
   // ctx.closePath()
 
   // bezier (cp1,cp2,x,y) (cp1x,cp1y,cp2x,cp2y,x,y)
-  // ctx.beginPath()
-  // ctx.moveTo(200,300)
-  // ctx.quadraticCurveTo(100,300,100,200)
-  // ctx.quadraticCurveTo(100,100,200,100)
-  // ctx.quadraticCurveTo(300,100,300,100)
-  // ctx.quadraticCurveTo(400,100,400,200)
-  // ctx.quadraticCurveTo(400,300,300,300)
-  // ctx.quadraticCurveTo(300,300,250,300)
-  // ctx.quadraticCurveTo(150,400,200,300)
-  // ctx.stroke()
-  // ctx.closePath()
+  ctx.beginPath()
+  ctx.moveTo(200,300)
+  ctx.quadraticCurveTo(100,300,100,200)
+  ctx.quadraticCurveTo(100,100,200,100)
+  ctx.quadraticCurveTo(300,100,300,100)
+  ctx.quadraticCurveTo(400,100,400,200)
+  ctx.quadraticCurveTo(400,300,300,300)
+  ctx.quadraticCurveTo(300,300,250,300)
+  ctx.quadraticCurveTo(150,400,200,300)
+  ctx.stroke()
+  ctx.closePath()
 
   ctx.beginPath();
   ctx.moveTo(200, 200);
