@@ -42,6 +42,11 @@ const routes: Array<RouteRecordRaw> = [
                 path: '/pixi',
                 name: 'pixi',
                 component: () => import('../views/canvas/pixi.vue')
+            },
+            {
+                path: '/dw',
+                name: 'dw',
+                component: () => import('../views/canvas/dw.vue')
             }
         ]
     }

@@ -29,6 +29,7 @@
                 <el-menu-item index="/png">png</el-menu-item>
                 <el-menu-item index="/ani">ani</el-menu-item>
                 <el-menu-item index="/pixi">pixi</el-menu-item>
+                <el-menu-item index="/dw">dw</el-menu-item>
             </el-sub-menu>
           </el-menu>
         </el-aside>
