@@ -856,7 +856,7 @@ setInterval(()=>{
     if(num>100){
         num=0;
     }
-    rotateCircle(num)
+    // rotateCircle(num)
 },30)
 })
 

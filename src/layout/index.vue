@@ -19,6 +19,7 @@
                 <span>SVG</span>
               </template>
                 <el-menu-item index="/svg">svg</el-menu-item>
+                <el-menu-item index="/event">event</el-menu-item>
                 <el-menu-item index="/svgDrag">svgDrag</el-menu-item>
             </el-sub-menu>
             <el-sub-menu index="2">
